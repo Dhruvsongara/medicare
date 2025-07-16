@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare - Your Friendly Medical Assistant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-heartbeat"></i> MediCare</h1>
+            <p>Your friendly medical assistant</p>
+        </header>
+
+        <div class="chat-container" id="chatContainer">
+            <div class="chat-welcome" id="welcomeScreen">
+                <div class="welcome-content">
+                    <img src="assets/doctor-avatar.jpg" alt="Doctor Avatar" class="doctor-avatar">
+                    <h2>Hello! I'm Dr. CareBot</h2>
+                    <p>How can I help you today? I can provide general health advice and information about common medicines available in India.</p>
+                    <button id="startChatBtn" class="btn-primary">Start Chat</button>
+                </div>
+            </div>
+
+            <div class="chat-box hidden" id="chatBox">
+                <div class="chat-messages" id="chatMessages">
+                    <!-- Messages will appear here -->
+                </div>
+                <div class="chat-input">
+                    <div class="input-group">
+                        <input type="text" id="userInput" placeholder="Type your health concern...">
+                        <button id="sendBtn"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                    <div class="file-upload">
+                        <label for="fileInput" class="btn-secondary">
+                            <i class="fas fa-camera"></i> Upload Image
+                        </label>
+                        <input type="file" id="fileInput" accept="image/*">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>Disclaimer:</strong> This is not a substitute for professional medical advice. Always consult a doctor for serious conditions.</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
