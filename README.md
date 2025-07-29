@@ -20,7 +20,7 @@ MediCare is a smart, AI-powered web application designed to provide instant medi
 ![Home Page](./projectimg1.png)
 
 ### 💬 Chatbot in Action
-![Chatbot Demo](./projectimg1.png)
+![Chatbot Demo](./projectimg2.png)
 
 ---
 
